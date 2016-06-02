@@ -1,0 +1,15 @@
+$mobile: "(max-width:760px)"
+$tablet: "(min-width: 761px) and (max-width: 1023px)"
+$desktop: "(min-width: 1024px)"
+
+
+
+// Mobile Version of the website.
+@media #{$mobile}
+	@import mobile/_mobile_main
+// Tablet Version of the website.
+@media #{$tablet}
+	@import tablet/_tablet_main
+// Desktop Version of the website.
+@media #{$desktop}
+	@import desktop/_desktop_main

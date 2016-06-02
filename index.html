@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- DAVID MOGOLLON -->
+<meta name="viewport" content="width=device-width, user-scalable=yes">
+	<title>Astound Test</title>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+<div id="banner">
+
+
+<div class="overlay">
+
+	<h1>SALE</h1>
+</div>
+<img id="bannerImg" src="img/mobileBanner.png" alt="">
+
+
+</div>
+
+
+<div >
+	<ul id ="list">
+			<li>
+			<div class="item">
+
+				<div class="overlay2">
+
+
+					<a href="#popup" style="display:none" id="hidden-popup"><h2>show more</h2></a>
+					<a href="#popup" id="open-popup"><h2>Click to show more</h2></a>
+				</div>
+
+				<img style="transform: scale(1);right: 0;"  src="img/jacket1.png" alt="">
+			</div>
+
+			<div class="description">
+
+
+
+				<h2 style="text-transform:uppercase">for gamers by gamers tee</h2>
+				<h2 style="display:none; text-align:center"id="OriginalPrice">
+						$29.50
+				</h2>
+				<h2 style="text-align:center"id="price">
+						$19.99
+				</h2>
+			</div>
+
+			</li>
+					<li>
+			<div class="item">
+
+				<div class="overlay2">
+
+					<a href="#popup" style="display:none" id="hidden-popup"><h2>show more</h2></a>
+					<a href="#popup" id="open-popup"><h2>Click to show more</h2></a>
+			</div>
+
+				<img  src="img/jacket2.png" alt="">
+
+			</div>
+
+				<div class="description">
+
+
+
+					<h2 style="text-transform:uppercase">spectrum scars hoodie</h2>
+					<h2 style="text-align:center"id="price2">
+						$49.99
+					</h2>
+				</div>
+
+			</li>
+					<li>
+			<div class="item">
+
+				<div class="overlay2">
+
+					<a href="#popup" style="display:none" id="hidden-popup"><h2>show more</h2></a>
+					<a href="#popup" id="open-popup"><h2>Click to show more</h2></a>
+			</div>
+
+			<img  src="img/jacket3.png" alt="">
+
+
+
+
+
+
+			</div>
+
+				<div class="description">
+
+
+
+					<h2 >spectroom gamer tee</h2>
+					<h2 id="price2">
+						$24.99
+					</h2>
+				</div>
+
+			</li>
+					<li>
+			<div class="item">
+
+				<div class="overlay2">
+
+					<a href="#popup" style="display:none" id="hidden-popup"><h2>show more</h2></a>
+					<a href="#popup" id="open-popup"><h2>Click to show more</h2></a>
+			</div>
+
+			<img  src="img/jacket4.png" alt="">
+			</div>
+
+				<div class="description">
+
+
+
+					<h2 style="text-transform:uppercase">gaming for good tee</h2>
+					<h2 style="display:none; text-align:center"id="OriginalPrice">
+						$29.99
+				    </h2>
+					<h2 style="text-align:center"id="price">
+						$19.99
+					</h2>
+				</div>
+
+			</li>
+					<li>
+			<div class="item">
+
+				<div class="overlay2">
+
+					<a href="#popup" style="display:none" id="hidden-popup"><h2>show more</h2></a>
+					<a href="#popup" id="open-popup"><h2>Click to show more</h2></a>
+			</div>
+
+				<img  src="img/jacket5.png" alt="">
+			</div>
+
+				<div class="description">
+
+
+
+					<h2 >spectroom web hoodie</h2>
+					<h2 id="price2">
+						$60.00
+					</h2>
+				</div>
+
+			</li>
+					<li>
+			<div class="item">
+
+				<div class="overlay2">
+
+					<a href="#popup" style="display:none" id="hidden-popup"><h2>show more</h2></a>
+					<a href="#popup" id="open-popup"><h2>Click to show more</h2></a>
+			</div>
+
+				<img  src="img/jacket6.png" alt="">
+			</div>
+
+				<div class="description">
+
+
+
+					<h2 >spectroom varsity hoodie</h2>
+					<h2 id="price2">
+						$54.00
+					</h2>
+				</div>
+
+			</li>
+	</ul>
+
+</div>
+
+<div id="popup">
+    <a href="#" class="close">&times;</a>
+
+
+    <h2 id="popTitle">For gamers by gamers TEE</h2>
+    <div id ="popup-header">
+    	<p>Item #: 701642853695</p>
+    	<div id="stars">
+    		<img class="ios-star" src="img/icons/ios7-star.png">
+    		<img class="ios-star" src="img/icons/ios7-star.png">
+    		<img class="ios-star" src="img/icons/ios7-star.png">
+    		<img class="ios-star" src="img/icons/ios7-star.png">
+    		<img class="ios-star-outline" src="img/icons/ios7-star-outline.png">
+    	</div>
+
+    </div>
+	<img id="popImg" src="img/jacket1.png" alt="">
+
+	<h3 id ="detailHeader" style="display:none">Details</h3>
+	<p id ="itemDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+    <br />
+    <div style="display: none;"id ="hideDiv">
+    <a onclick ="showStuff('social','openSymb',this);return false;" style="display:none"id="hiddenSymb">+</a>
+    <a onclick ="hideStuff('social','hiddenSymb',this);return false;"style="display:none"id="openSymb">x</a></div>
+    <div id="social">
+
+    	<ul>
+
+    		<li><img class="social-facebook" src="img/icons/social-facebook.png"></li>
+    		<li><img class="social-twitter" src="img/icons/social-twitter.png"></li>
+    		<li><img class="social-pinterest" src="img/icons/social-pinterest.png"></li>
+    		<li><img class="social-youtube" src="img/icons/social-youtube.png"></li>
+    		<li><img class="social-instagram" src="img/icons/social-instagram.png"></li>
+    	</ul>
+
+    </div>
+    <div id="pricing">
+    	<h2 id="discount">$29.50</h2>
+    	<h2 id ="price">$19.99</h2>
+    </div>
+    <div id ="size">
+    <h4 id="normalSize"><b>select a size:</b></h4>
+    <h4 id="hiddenSize" style="display:none"><b>size:</b></h4>
+    		<ul>
+    			<li><i>XS</i></li>
+    			<li><i>S</i></li>
+    			<li><i>M</i></li>
+    			<li><i>L</i></li>
+       		</ul>
+    </div>
+
+    <button id ="addToCart">add to cart</button>
+
+
+</div>
+<div id="mask" onclick="document.location='#';"></div> <!-- the only javascript -->
+
+
+<script type="text/javascript">
+function showStuff(id, btn2, btn) {
+    document.getElementById(id).style.display = 'block';
+    document.getElementById(btn2).style.display = 'block';
+    document.getElementById(btn2).style.visibility = 'visible';
+
+    btn.style.visibility = 'hidden';
+}
+function hideStuff(id, btn2, btn) {
+    document.getElementById(id).style.display = 'none';
+    document.getElementById(btn2).style.display = 'block';
+    document.getElementById(btn2).style.visibility = 'visible';
+
+    btn.style.visibility = 'hidden';
+}
+</script>
+
+</body>
+</html>
